@@ -1,0 +1,23 @@
+{
+  "name": "lab--interactive-components",
+  "version": "1.0.0",
+  "description": "## Context In order to become a competent front-end developer, it is a good idea to build common U.I. components. For this lab, you will build two components: 1) user interface tabs that reveal content 2) simple form validation for an account registration.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass ./assignment-files/scss/main.scss ./assignment-files/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarHtea/lab--interactive-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarHtea/lab--interactive-components/issues"
+  },
+  "homepage": "https://github.com/CesarHtea/lab--interactive-components#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

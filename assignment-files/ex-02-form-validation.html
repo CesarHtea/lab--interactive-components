@@ -7,16 +7,13 @@
    </head>
    <body>
       <div id="app-container-02" class="container--narrow">
-        <form class="form-group" id="registration-form">
+        <form class="form-group" id="registration-form" name="AccountRegistration">
            <h1>New Account Registration Form</h1>
 
            <div class="form-group__field field--username">
                <label class="form-group__field_label">Username </label>
                <input class="form-group__field_input" type="text" name="username"/>
-               <p class="form-group__validation validation--username">
-                 <!-- Form Feedback in here -->
-                 - text inside the <code>validation--</code> elements show a comment
-               </p>
+               <p class="form-group__validation validation--username"></p>
            </div>
 
            <div class="form-group__field col-6-of-12 field--password">
@@ -66,5 +63,7 @@
         </form>
 
       </div>
+
+      <script src="./js/app-02.js"></script>    
    </body>
 </html>

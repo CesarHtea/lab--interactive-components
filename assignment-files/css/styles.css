@@ -615,4 +615,28 @@ img {
   max-width: 800px;
   margin: 0 auto; }
 
-/*# sourceMappingURL=styles.css.map */
+.box {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; }
+  .box__menu {
+    display: flex; }
+  .box__content {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0 15px 15px 15px; }
+
+button {
+  flex: 1;
+  background: blue;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 35px 0; }
+
+.text {
+  display: none; }
+
+.psmall {
+  font-size: small; }
