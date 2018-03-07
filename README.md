@@ -7,7 +7,7 @@
 
 ---
 
-### Deliverables
+### Deliverables in "Assignment Files" Directory
 - an `index.html` file with the interactive functionality 2 pages:
   - `ex-01-ui-tabs.html`
   - `ex-02-form-validation.html`
